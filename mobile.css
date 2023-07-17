@@ -1,0 +1,36 @@
+@media screen and (max-width:576px) {
+    nav{
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+       
+    }
+    nav h2{
+        text-align: center;
+    }
+    .list{
+        margin: 15px;
+        text-align:center;
+    }
+    .list a{
+        margin-left: 15px;
+    }
+    .banner-1{
+        flex-direction: column-reverse;
+        /* flex-wrap: wrap; */
+    }
+    .banner-1-left{
+        text-align: center;
+    }
+
+    .banner-1-left p{
+        width:auto;
+    }
+    .banner-1-right{
+        width: auto;
+    }  
+    .main-camera{
+        width: 100%;
+    }
+
+}
