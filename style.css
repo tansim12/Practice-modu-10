@@ -2,36 +2,48 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    box-sizing: border-box;
+}
+.navbar{
+    /* background-color: rgb(216, 0, 0); */
+    min-height: 100px;
 }
 
 nav{
-   
-    margin-bottom: 5%;
-    padding-top: 3%;
-    display: flex;
-    justify-content: space-around;
+
+    /* new added  */
+    padding: 20px;
+
+
+
+    display: flex;   
     align-items: center;
+
+    /* new added  */
+    max-width: 1200px;
+    margin: 0 auto;
+    
     
     
 }
 .list{
     list-style: none;
-    width: max-content;
     display:flex;
+
+    /* new added  */
+    justify-content: space-between;
 }
 nav h2{
-    width:35%;
+    /* new added  */
+    width: 100%;
     
 }
 .list a{
     text-decoration: none;
-    width: max-content;
-    margin-left:25px;
-    
-    
-    
-    
+
 }
+
+/* nav bar is complete  */
 .banner-1{
     display: flex;
     

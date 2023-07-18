@@ -3,6 +3,8 @@
         align-items: center;
         width: 100%;
         flex-direction: column;
+                                        /* new added  */
+        padding: 0;
        
     }
     nav h2{
@@ -12,12 +14,10 @@
         margin: 15px;
         text-align:center;
     }
-    .list a{
-        margin-left: 15px;
-    }
+
     .banner-1{
         flex-direction: column-reverse;
-        /* flex-wrap: wrap; */
+       
     }
     .banner-1-left{
         text-align: center;
@@ -34,3 +34,5 @@
     }
 
 }
+
+/* header section is done  */
